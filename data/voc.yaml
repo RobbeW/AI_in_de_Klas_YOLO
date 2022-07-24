@@ -1,0 +1,10 @@
+# Zorg dat de eigen, aangepaste, dataset in de originele directory steekt van YOLOv6_DIR
+train: VOCdevkit/voc_07_12/images/train # afbeeldingen voor de training
+val: VOCdevkit/voc_07_12/images/val # afbeeldingen voor validatie
+test: VOCdevkit/voc_07_12/images/val # test afbeeldingen voor de interferentie in de Notebook. 
+
+is_coco: False
+# Klassen / categorieën
+nc: 20  # aantal klassen / categorieën
+names: ['vliegtuig', 'fiets', 'vogel', 'boot', 'fles', 'bus', 'auto', 'kat', 'stoel', 'koe', 'eettafel', 'hond',
+        'paard', 'motor', 'persoon', 'plant in een pot', 'schaap', 'sofa', 'trein', 'tvmonitor']  

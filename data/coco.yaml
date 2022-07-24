@@ -1,0 +1,20 @@
+# COCO 2017 dataset http://cocodataset.org
+train: ../coco/images/train2017 # 118287 afbeeldingen
+val: ../coco/images/val2017  # 5000 afbeeldingen
+test: ../coco/images/test2017
+anno_path: ../coco/annotations/instances_val2017.json
+# aantal categorieën 
+nc: 80
+
+is_coco: True
+
+# namen van klassen / categorieën 
+names: [ 'persoon', 'fiets', 'auto', 'motor', 'vliegtuig', 'bus', 'trein', 'vrachtwagen', 'boot', 'verkeerslicht',
+         'brandkraan', 'stopbord', 'parkeermeter', 'bank', 'vogel', 'kat', 'hond', 'paard', 'schaap', 'koe',
+         'olifant', 'beer', 'zebra', 'giraf', 'rugzak', 'paraplu', 'handtas', 'das', 'koffer', 'frisbee',
+         'ski', 'snowboard', 'sportbal', 'vlieger', 'basebalknupel', 'basebalhandschoen', 'skateboard', 'surfbord',
+         'tennisracket', 'fles', 'wijnglas', 'tas', 'vork', 'mes', 'lepel', 'kom', 'banana', 'appel',
+         'sandwich', 'sinaasappel', 'broccoli', 'wortel', 'hot dog', 'pizza', 'donut', 'cake', 'stoel', 'zetel',
+         'plant in een pot', 'bed', 'eettafel', 'toilet', 'tv', 'laptop', 'muis', 'afstandsbediening', 'toetsenbord', 'GSM/Smartphone',
+         'microgolfoven', 'oven', 'broodrooster', 'lavabo', 'koelkast', 'boek', 'klok', 'vaas', 'schaar', 'teddybeer',
+         'haardroger', 'tandenborstel' ]
