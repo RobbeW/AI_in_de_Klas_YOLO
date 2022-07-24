@@ -1,6 +1,8 @@
 # AI in de Klas - Objectclassificatie v2 met YOLOv6
 ## Introductie
 
+<img src="resultaten/Resultaat_Kajak.png" width="800">
+
 Tijdens eerdere projecten maakten leerlingen en cursisten kennis met supervised learning (Machine Learning) en hoe je het kan toepassen om aan objectclassificatie te doen. 
 We maakten met bovenstaande aanpak reeds een [Slimme Vuilnisbak](https://www.robbewulgaert.be/onderwijs/bouw-een-slimme-vuilnisbak) en [eigen projecten](https://www.robbewulgaert.be/onderwijs/1-jaar-ai-in-de-klas). 
 
@@ -8,7 +10,7 @@ Bovenstaande aanpak is uitstekend voor een inleiding in objectclassificatie door
 Die aanpak kan dus moeilijkn overweg met meer gecompliceerde scenes zoals een drukke straat, een koelkast met meerdere items ... Door gebruik te maken van een YOLO-framewerk kunnen we deze beperking oplossen. 
 YOLOv6 is een éénfasig framework voor objectdetectie, speciaal voor industriële toepassingen, met een hardware-vriendelijk efficiënt ontwerp en hoge prestaties.
 
-<img src="resultaten/Resultaat_2.png" width="800">
+<img src="resultaten/Resultaat_Barry.png" width="800">
 
 Deze aanpak is gebaseerd op aangepaste code van [Meituan YOLOv6](https://github.com/meituan/YOLOv6). Ook de COCO-dataset werd aangepast voor gebruik in het Nederlandstalig onderwijs. 
 
@@ -20,6 +22,7 @@ Deze aanpak is gebaseerd op aangepaste code van [Meituan YOLOv6](https://github.
 - [ ] Eindresultaten uit de klaspraktijk ... 
 - [ ] Beter gestructureerde Colab Notebook. 
 
+<img src="resultaten/output.gif" width="800">
 
 ## Hoe gebruiken? 
 
@@ -33,6 +36,8 @@ Objectdetectie is mogelijk op drie bronnen, namelijk:
 
 Afbeeldingen en video's kunnen ingeladen worden via de GitHub of vanaf de computer van de leerling. Hierbij kan ook geteld worden hoeveel objecten uit elke klasse uit de dataset er werd gedetecteerd. 
 Bij de webcam kan live objectdetectie worden toegepast, zonder teller-functie. 
+
+<img src="resultaten/resultaat_schaap.png" width="800">
 
 ## Credits
 
