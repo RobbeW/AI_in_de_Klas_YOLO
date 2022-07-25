@@ -6,8 +6,8 @@
 Tijdens eerdere projecten maakten leerlingen en cursisten kennis met supervised learning (Machine Learning) en hoe je het kan toepassen om aan objectclassificatie te doen. 
 We maakten met bovenstaande aanpak reeds een [Slimme Vuilnisbak](https://www.robbewulgaert.be/onderwijs/bouw-een-slimme-vuilnisbak) en [eigen projecten](https://www.robbewulgaert.be/onderwijs/1-jaar-ai-in-de-klas). 
 
-Bovenstaande aanpak is uitstekend voor een inleiding in objectclassificatie door te werken met bv. een Teachable Machine. Deze aanpak kent echter ook beperkingen, omdat het slechts één klasse per keer detecteert / aantoont. 
-Die aanpak kan dus moeilijkn overweg met meer gecompliceerde scenes zoals een drukke straat, een koelkast met meerdere items ... Door gebruik te maken van een YOLO-framewerk kunnen we deze beperking oplossen. 
+Bovenstaande aanpak is uitstekend als inleiding in objectclassificatie door te werken met bv. een Teachable Machine. Deze aanpak kent echter ook beperkingen, omdat het slechts één klasse per keer detecteert / aantoont. 
+Die aanpak kan dus moeilijk overweg met meer gecompliceerde scenes zoals een drukke straat, een koelkast met meerdere items ... Door gebruik te maken van een YOLO-framewerk kunnen we deze beperking oplossen. 
 YOLOv6 is een éénfasig framework voor objectdetectie, speciaal voor industriële toepassingen, met een hardware-vriendelijk efficiënt ontwerp en hoge prestaties.
 
 <img src="resultaten/Resultaat_Barry.png" width="800">
