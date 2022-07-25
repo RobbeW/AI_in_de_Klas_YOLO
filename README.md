@@ -1,7 +1,7 @@
 # AI in de Klas - Objectclassificatie v2 met YOLOv6
 ## Introductie
 
-<img src="resultaten/Resultaat_Kajak.png" width="800">
+<img src="resultaten/Thumbnail.jpg" width="800">
 
 Tijdens eerdere projecten maakten leerlingen en cursisten kennis met supervised learning (Machine Learning) en hoe je het kan toepassen om aan objectclassificatie te doen. 
 We maakten met bovenstaande aanpak reeds een [Slimme Vuilnisbak](https://www.robbewulgaert.be/onderwijs/bouw-een-slimme-vuilnisbak) en [eigen projecten](https://www.robbewulgaert.be/onderwijs/1-jaar-ai-in-de-klas). 
